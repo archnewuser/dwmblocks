@@ -14,7 +14,9 @@ static const Block blocks[] = {
 	
 	//*{"🔊 ", "amixer get Master | tail -n1 | sed -r 's/.*\\[(.*)%\\].*/\\1/'", 0, 10},*//
 	
-    {" ","volume",	0,	10}, 
+	{"",	"pacpackages",	0,	8},
+	
+        {" ","volume",	0,	10}, 
 		
 	/*{"", "~/.local/bin/statusbar/clock",	5,		0},*/
 							 
